@@ -13,6 +13,8 @@ void keyPressed() {
 
 void draw() {
   image(value,0,0);
+  fill(255);
+  ellipse(random(width),random(height),100,100);
   noStroke();
   //Letter-T-Shadow
   fill(0);
@@ -26,11 +28,13 @@ void draw() {
 //---------------------\\
 
   // Letter-K
-  fill(random(200),random(100),random(150));
-  rect(300,130,70,230,20);
+  fill(#070807);
+  rect(315,130,70,230,20);
   translate(300,150);
-  rotate(PI/3.0);
-  rect(56,-146,70,182,20);
-  rect(66,-80,182,70,20);
+  rotate(PI/3.2);
+  rect(76,-170,70,182,20);
+  rect(86,-75,182,70,20);
+  
+
 
 }
